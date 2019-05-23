@@ -1,0 +1,41 @@
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\bin\Debug\JuegoPreguntas.exe.config
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\bin\Debug\JuegoPreguntas.exe
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\bin\Debug\JuegoPreguntas.pdb
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\bin\Debug\JuegoPreguntas.xml
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\obj\Debug\JuegoPreguntas.vbprojResolveAssemblyReference.cache
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\obj\Debug\JuegoPreguntas.Form1.resources
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\obj\Debug\JuegoPreguntas.Resources.resources
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\obj\Debug\JuegoPreguntas.vbproj.GenerateResource.Cache
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\obj\Debug\JuegoPreguntas.exe
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\obj\Debug\JuegoPreguntas.xml
+C:\Users\dam1-Eider\AppData\Local\Temporary Projects\JuegoPreguntas\obj\Debug\JuegoPreguntas.pdb
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\JuegoPreguntas.exe.config
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.exe
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.xml
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.pdb
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\JuegoPreguntas.exe
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\JuegoPreguntas.pdb
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\JuegoPreguntas.xml
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.vbprojResolveAssemblyReference.cache
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.PantInicio.resources
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.Resources.resources
+C:\Users\dam1-Eider\documents\visual studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.vbproj.GenerateResource.Cache
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\JuegoPreguntas.exe.config
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.exe
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.xml
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.pdb
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\JuegoPreguntas.exe
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\JuegoPreguntas.pdb
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\JuegoPreguntas.xml
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.vbprojResolveAssemblyReference.cache
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.Juego.resources
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.Resources.resources
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.PantInicio.resources
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.Registrarse.resources
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.TablaPuntuaciones.resources
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.Tematica.resources
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\obj\Debug\JuegoPreguntas.vbproj.GenerateResource.Cache
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\MySql.Data.dll
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\Google.Protobuf.dll
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\dam1-JonAnder\Documents\Visual Studio 2015\Projects\JuegoPreguntas\JuegoPreguntas\bin\Debug\MySql.Data.xml

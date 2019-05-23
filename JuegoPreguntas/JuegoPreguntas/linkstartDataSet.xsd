@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="linkstartDataSet" targetNamespace="http://tempuri.org/linkstartDataSet.xsd" xmlns:mstns="http://tempuri.org/linkstartDataSet.xsd" xmlns="http://tempuri.org/linkstartDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="linkstartConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="linkstartConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.JuegoPreguntas.My.MySettings.GlobalReference.Default.linkstartConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="perfilesTableAdapter" GeneratorDataComponentClassName="perfilesTableAdapter" Name="perfiles" UserDataComponentName="perfilesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="linkstartConnectionString (MySettings)" DbObjectName="linkstart.perfiles" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idPerfil, nombre, usuario, puntuacion, avatar, record FROM perfiles</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="preguntasFOLTableAdapter" GeneratorDataComponentClassName="preguntasFOLTableAdapter" Name="preguntasFOL" UserDataComponentName="preguntasFOLTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="linkstartConnectionString (MySettings)" DbObjectName="linkstart.preguntasFOL" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idPregunta, pregunta, usuario, imagen FROM preguntasFOL</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="preguntasInglesTableAdapter" GeneratorDataComponentClassName="preguntasInglesTableAdapter" Name="preguntasIngles" UserDataComponentName="preguntasInglesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="linkstartConnectionString (MySettings)" DbObjectName="linkstart.preguntasIngles" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idPregunta, pregunta, usuario, imagen FROM preguntasIngles</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="respuestasFOLTableAdapter" GeneratorDataComponentClassName="respuestasFOLTableAdapter" Name="respuestasFOL" UserDataComponentName="respuestasFOLTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="linkstartConnectionString (MySettings)" DbObjectName="linkstart.respuestasFOL" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idRespuesta, respuesta, correcta, pregunta, infoExtra FROM respuestasFOL</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="respuestasInglesTableAdapter" GeneratorDataComponentClassName="respuestasInglesTableAdapter" Name="respuestasIngles" UserDataComponentName="respuestasInglesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="linkstartConnectionString (MySettings)" DbObjectName="linkstart.respuestasIngles" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idRespuesta, respuesta, correcta, pregunta FROM respuestasIngles</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usuariosTableAdapter" GeneratorDataComponentClassName="usuariosTableAdapter" Name="usuarios" UserDataComponentName="usuariosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="linkstartConnectionString (MySettings)" DbObjectName="linkstart.usuarios" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idUsuario, nombre, password, admin, correo FROM usuarios</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="linkstartDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="linkstartDataSet" msprop:Generator_UserDSName="linkstartDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="perfiles" msprop:Generator_TableClassName="perfilesDataTable" msprop:Generator_TableVarName="tableperfiles" msprop:Generator_TablePropName="perfiles" msprop:Generator_RowDeletingName="perfilesRowDeleting" msprop:Generator_RowChangingName="perfilesRowChanging" msprop:Generator_RowEvHandlerName="perfilesRowChangeEventHandler" msprop:Generator_RowDeletedName="perfilesRowDeleted" msprop:Generator_UserTableName="perfiles" msprop:Generator_RowChangedName="perfilesRowChanged" msprop:Generator_RowEvArgName="perfilesRowChangeEvent" msprop:Generator_RowClassName="perfilesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="preguntasFOL" msprop:Generator_TableClassName="preguntasFOLDataTable" msprop:Generator_TableVarName="tablepreguntasFOL" msprop:Generator_TablePropName="preguntasFOL" msprop:Generator_RowDeletingName="preguntasFOLRowDeleting" msprop:Generator_RowChangingName="preguntasFOLRowChanging" msprop:Generator_RowEvHandlerName="preguntasFOLRowChangeEventHandler" msprop:Generator_RowDeletedName="preguntasFOLRowDeleted" msprop:Generator_UserTableName="preguntasFOL" msprop:Generator_RowChangedName="preguntasFOLRowChanged" msprop:Generator_RowEvArgName="preguntasFOLRowChangeEvent" msprop:Generator_RowClassName="preguntasFOLRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="preguntasIngles" msprop:Generator_TableClassName="preguntasInglesDataTable" msprop:Generator_TableVarName="tablepreguntasIngles" msprop:Generator_TablePropName="preguntasIngles" msprop:Generator_RowDeletingName="preguntasInglesRowDeleting" msprop:Generator_RowChangingName="preguntasInglesRowChanging" msprop:Generator_RowEvHandlerName="preguntasInglesRowChangeEventHandler" msprop:Generator_RowDeletedName="preguntasInglesRowDeleted" msprop:Generator_UserTableName="preguntasIngles" msprop:Generator_RowChangedName="preguntasInglesRowChanged" msprop:Generator_RowEvArgName="preguntasInglesRowChangeEvent" msprop:Generator_RowClassName="preguntasInglesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="respuestasFOL" msprop:Generator_TableClassName="respuestasFOLDataTable" msprop:Generator_TableVarName="tablerespuestasFOL" msprop:Generator_TablePropName="respuestasFOL" msprop:Generator_RowDeletingName="respuestasFOLRowDeleting" msprop:Generator_RowChangingName="respuestasFOLRowChanging" msprop:Generator_RowEvHandlerName="respuestasFOLRowChangeEventHandler" msprop:Generator_RowDeletedName="respuestasFOLRowDeleted" msprop:Generator_UserTableName="respuestasFOL" msprop:Generator_RowChangedName="respuestasFOLRowChanged" msprop:Generator_RowEvArgName="respuestasFOLRowChangeEvent" msprop:Generator_RowClassName="respuestasFOLRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="respuestasIngles" msprop:Generator_TableClassName="respuestasInglesDataTable" msprop:Generator_TableVarName="tablerespuestasIngles" msprop:Generator_TablePropName="respuestasIngles" msprop:Generator_RowDeletingName="respuestasInglesRowDeleting" msprop:Generator_RowChangingName="respuestasInglesRowChanging" msprop:Generator_RowEvHandlerName="respuestasInglesRowChangeEventHandler" msprop:Generator_RowDeletedName="respuestasInglesRowDeleted" msprop:Generator_UserTableName="respuestasIngles" msprop:Generator_RowChangedName="respuestasInglesRowChanged" msprop:Generator_RowEvArgName="respuestasInglesRowChangeEvent" msprop:Generator_RowClassName="respuestasInglesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="usuarios" msprop:Generator_TableClassName="usuariosDataTable" msprop:Generator_TableVarName="tableusuarios" msprop:Generator_TablePropName="usuarios" msprop:Generator_RowDeletingName="usuariosRowDeleting" msprop:Generator_RowChangingName="usuariosRowChanging" msprop:Generator_RowEvHandlerName="usuariosRowChangeEventHandler" msprop:Generator_RowDeletedName="usuariosRowDeleted" msprop:Generator_UserTableName="usuarios" msprop:Generator_RowChangedName="usuariosRowChanged" msprop:Generator_RowEvArgName="usuariosRowChangeEvent" msprop:Generator_RowClassName="usuariosRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
